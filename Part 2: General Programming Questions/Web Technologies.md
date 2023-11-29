@@ -36,7 +36,9 @@ Access-Control-Allow-Origin: https://example.com
 .   If your application requires credentials (e.g., cookies, HTTP authentication) to be included in cross-origin requests, set the `Access-Control-Allow-Credentials` header to `true`. Additionally, ensure that the client includes the withCredentials option in its requests.
 ##### 5. CORS Middleware :
 .   Some web frameworks provide middleware or plugins to handle CORS automatically. For example, Express.js has the cors middleware for this purpose.
+
 Here's an example of handling CORS in an Express.js application using the `cors` middleware:
+
 ```
 const express = require('express');
 const cors = require('cors');
