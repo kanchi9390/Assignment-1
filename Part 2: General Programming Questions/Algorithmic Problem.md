@@ -1,4 +1,4 @@
-● Implement a function in a language of your choice that checks if a given string is a palindrome.
+## ● Implement a function in a language of your choice that checks if a given string is a palindrome.
 
 
 # python code for that checks if a given string is a palindrome
