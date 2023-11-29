@@ -21,13 +21,13 @@ function writeJSONFile(filename, data) {
 }
 
 // Read user data from the input JSON file
-const userData = readJSONFile("exampleFile.json");
+const userData = readJSONFile("ExampleJsonFile.json");
 
 // Calculate the total number of posts for each user
 calculateTotalPosts(userData);
 
 // Write the modified data to the output JSON file
-writeJSONFile("newExampleFile.json", userData);
+writeJSONFile("newExampleJsonFile.json", userData);
 
 console.log(
   "Data manipulation complete. Check the output file:newExampleFile.json"
