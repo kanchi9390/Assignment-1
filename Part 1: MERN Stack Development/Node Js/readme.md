@@ -2,8 +2,9 @@
 #### File System
 ● Write a Node.js script that reads a JSON file containing user data, manipulates the data to include the total number of posts each user has created, and writes the modified data back to a new JSON file.
 ##### Required Files
-  . index.js
-  . 
+  . index.js \n
+  . newExampleJsonFile.json
+  . ExampleJsonFile.json
 
 State Management
 
