@@ -1,21 +1,21 @@
 
-#### File System
+## File System
 ● Write a Node.js script that reads a JSON file containing user data, manipulates the data to include the total number of posts each user has created, and writes the modified data back to a new JSON file.
 ##### Required Files
-  . index.js \n
-  . newExampleJsonFile.json
-  . ExampleJsonFile.json
+-> index.js
+-> newExampleJsonFile.json
+-> ExampleJsonFile.json
+### To start server
+--> node index.js
 
-State Management
 
-● Implement state management in React to handle the loading state while fetching the blog posts. Show a loading indicator when posts are being fetched.
+## API Integration
 
-Installation
+● Create a Node.js function that fetches data from an external API (e.g.,JSONPlaceholder) and returns a list of users along with their posts.
 
-Use npm install to install the packages.
+##### Required Files
+->ApiIntegration
 
---> npm install
+### To start the server
 
-To start the server
-
---> npm start
+--> node 
