@@ -8,7 +8,7 @@
 
 -> ExampleJsonFile.json
 
-### To run code
+### To run the code
 --> node index.js
 
 
@@ -19,6 +19,6 @@
 ##### Required Files
 ->ApiIntegration.js
 
-### To run code
+### To run the code
 
 --> node ApiIntegration.js
