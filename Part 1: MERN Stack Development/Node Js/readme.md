@@ -8,7 +8,7 @@
 
 -> ExampleJsonFile.json
 
-### To start server
+### To run code
 --> node index.js
 
 
@@ -19,6 +19,6 @@
 ##### Required Files
 ->ApiIntegration.js
 
-### To start the server
+### To run code
 
 --> node ApiIntegration.js
