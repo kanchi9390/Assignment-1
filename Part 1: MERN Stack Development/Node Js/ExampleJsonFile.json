@@ -1,1 +1,85 @@
 
+[
+  {
+    "user_id": 1,
+    "username": "user1",
+    "email": "user1@example.com",
+    "password": "hashed_password1",
+    "posts": [
+      {
+        "post_id": 1,
+        "title": "Post 1",
+        "content": "This is the content of Post 1."
+      },
+      {
+        "post_id": 2,
+        "title": "Post 2",
+        "content": "This is the content of Post 2."
+      },
+      {
+        "post_id": 3,
+        "title": "Post 3",
+        "content": "This is the content of Post 3."
+      },
+      {
+        "post_id": 4,
+        "title": "Post 4",
+        "content": "This is the content of Post 4."
+      }
+    ]
+  },
+  {
+    "user_id": 2,
+    "username": "user2",
+    "email": "user2@example.com",
+    "password": "hashed_password2",
+    "posts": [
+      {
+        "post_id": 11,
+        "title": "Post 11",
+        "content": "This is the content of Post 11."
+      },
+      {
+        "post_id": 12,
+        "title": "Post 12",
+        "content": "This is the content of Post 12."
+      },
+      {
+        "post_id": 13,
+        "title": "Post 13",
+        "content": "This is the content of Post 13."
+      }
+    ]
+  },
+  {
+    "user_id": 3,
+    "username": "user3",
+    "email": "user3@example.com",
+    "password": "hashed_password3",
+    "posts": [
+      {
+        "post_id": 21,
+        "title": "Post 21",
+        "content": "This is the content of Post 21."
+      },
+      {
+        "post_id": 22,
+        "title": "Post 22",
+        "content": "This is the content of Post 22."
+      }
+    ]
+  },
+  {
+    "user_id": 4,
+    "username": "user4",
+    "email": "user4@example.com",
+    "password": "hashed_password4",
+    "posts": [
+      {
+        "post_id": 23,
+        "title": "Post 23",
+        "content": "This is the content of Post 23."
+      }
+    ]
+  }
+]
