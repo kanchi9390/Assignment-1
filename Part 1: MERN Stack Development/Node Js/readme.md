@@ -14,7 +14,7 @@
 ● Create a Node.js function that fetches data from an external API (e.g.,JSONPlaceholder) and returns a list of users along with their posts.
 
 ##### Required Files
-->ApiIntegration
+->ApiIntegration.js
 
 ### To start the server
 
