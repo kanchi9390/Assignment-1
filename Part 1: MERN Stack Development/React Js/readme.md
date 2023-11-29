@@ -1,7 +1,7 @@
 
 ### This is the github link of Component and State Management implementation
 
-https://github.com/kanchi9390/MetaGeeksAssignment.git
+https://github.com/kanchi9390/metaGeeksReact.git
 
 
 #### Component
