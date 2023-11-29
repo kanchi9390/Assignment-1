@@ -7,13 +7,13 @@
     . Email: User's email address (unique).
 
 //Mysql code for creating User Table
-```
+
 CREATE TABLE User (
     UserID INT PRIMARY KEY AUTO_INCREMENT,
     Username VARCHAR(255) NOT NULL,
     Email VARCHAR(255) NOT NULL,
 );
-```
+
 
 
 2.Post Table:
