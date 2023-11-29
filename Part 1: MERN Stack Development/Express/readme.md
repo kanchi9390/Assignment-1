@@ -20,4 +20,5 @@ Use npm install to install the packages.
 
 ### To start the server
 
---> node 
+--> node app.js
+
