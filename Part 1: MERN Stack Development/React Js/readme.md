@@ -18,6 +18,6 @@ Use npm install to install the packages.
 
 --> npm install
 
-### To start the server
+### To run the code
 
 --> npm start
