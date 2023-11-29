@@ -1,7 +1,7 @@
 ### ● Explain the difference between SQL and NoSQL databases. Provide examples of use cases for each.
 
 
-### SQL Databases:
+## SQL Databases:
 
 ##### 1. Structure:
 SQL databases are relational databases, which means they organize data into structured tables with predefined schemas.
@@ -24,7 +24,7 @@ Applications requiring complex queries and transactions (e.g., financial applica
 Situations where data integrity and consistency are critical.
 Well-defined data structures with relationships.
 
-### NoSQL Databases:
+## NoSQL Databases:
 
 ##### 1. Structure:
 NoSQL databases are non-relational and can handle unstructured or semi-structured data.
