@@ -4,17 +4,16 @@
 // python code for that checks if a given string is a palindrome
 
 def is_palindrome(s):
-    # Convert the string to lowercase and remove non-alphanumeric characters
     updated_string = ''.join(char.lower() for char in s if char.isalnum())
 
     # Check if the cleaned string is equal to its reverse
     return updated_string == updated_string[::-1]
 
-# Example usage:
+
 input_string = input()
 result = is_palindrome(input_string)
 
 if result:
-    print('The string "{input_string}" is a palindrome.')
+    print('The string is a palindrome.')
 else:
-    print('The string "{input_string}" is not a palindrome.')
+    print('The string is not a palindrome.')
