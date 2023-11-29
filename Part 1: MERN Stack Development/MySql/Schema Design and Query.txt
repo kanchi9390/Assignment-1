@@ -1,12 +1,27 @@
 
                                                 Schema Design
 
+1.User Table:
+    . UserId: Unique identifier for each user (primary key).
+    . Username: User's username.
+    . Email: User's email address (unique).
+
+//Mysql code for creating User Table
+
 CREATE TABLE User (
     UserID INT PRIMARY KEY AUTO_INCREMENT,
     Username VARCHAR(255) NOT NULL,
     Email VARCHAR(255) NOT NULL,
 );
 
+
+2.Post Table:
+    . PostId: Unique identifier for each post (primary key).
+    . Title: Title of the blog post.
+    . Content: The main content of the blog post.
+    . UserId: Foreign key referencing the user who authored the post.
+
+//Mysql code for creating Post Table
 
 CREATE TABLE Post (
    PostID INT PRIMARY KEY AUTO_INCREMENT,
@@ -16,6 +31,14 @@ CREATE TABLE Post (
    FOREIGN KEY (UserID) REFERENCES User(UserID)
 );
 
+3.Comment Table:
+    . CommentId: Unique identifier for each comment (primary key).
+    . Content: The content of the comment.
+    . UserId: Foreign key referencing the user who wrote the comment.
+    . PostId: Foreign key referencing the post to which the comment belongs.
+
+//Mysql code for creating Comment Table
+
 CREATE TABLE Comment (
    CommentID INT PRIMARY KEY,
    Content TEXT NOT NULL,
@@ -24,22 +47,3 @@ CREATE TABLE Comment (
    FOREIGN KEY (UserID) REFERENCES User(UserID),
    FOREIGN KEY (PostID) REFERENCES Post(PostID)
 );
-
-1.User Table:
-    . UserId: Unique identifier for each user (primary key).
-    . Username: User's username.
-    . Email: User's email address (unique).
-
-
-2.Post Table:
-    . PostId: Unique identifier for each post (primary key).
-    . Title: Title of the blog post.
-    . Content: The main content of the blog post.
-    . UserId: Foreign key referencing the user who authored the post.
-
-
-3.Comment Table:
-    . CommentId: Unique identifier for each comment (primary key).
-    . Content: The content of the comment.
-    . UserId: Foreign key referencing the user who wrote the comment.
-    . PostId: Foreign key referencing the post to which the comment belongs.
