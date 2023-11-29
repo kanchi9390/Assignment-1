@@ -30,9 +30,7 @@ calculateTotalPosts(userData);
 writeJSONFile("newExampleJsonFile.json", userData);
 
 console.log(
-  "Data manipulation complete. Check the output file:newExampleFile.json"
+  "Data manipulation complete. Check the output file:newExampleJsonFile.json"
 );
 
-//const add = require("./calculator");
 
-//console.log(add(6, 3));
