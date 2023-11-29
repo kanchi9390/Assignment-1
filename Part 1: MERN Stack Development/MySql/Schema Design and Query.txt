@@ -51,5 +51,18 @@ CREATE TABLE Comment (
 
 
                                                    Query
-.Write a MongoDB query to find all posts created by a specific user, including the user details.
+.Write a MySql query to find all posts created by a specific user, including the user details.
+
+SELECT
+    Post.PostId,
+    Post.Title,
+    Post.Content,
+    User.UserId,
+    User.Username
+FROM
+    Post
+JOIN
+    User ON Post.UserId = User.UserId
+WHERE
+    User.UserId = 1;
 
