@@ -1,4 +1,4 @@
-##● Explain the difference between SQL and NoSQL databases. Provide examples of use cases for each.
+## ● Explain the difference between SQL and NoSQL databases. Provide examples of use cases for each.
 
 
 ### SQL Databases:
