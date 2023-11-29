@@ -12,13 +12,13 @@ When a web page hosted on one domain makes a request for a resource (e.g., an AP
 
 To enable cross-origin requests, a server needs to include the appropriate CORS headers in its responses. The key CORS headers are:
 
-##### `1. Access-Control-Allow-Origin`:
+##### 1. `Access-Control-Allow-Origin`:
 .    Specifies which origins are permitted to access the resource. It can be a specific origin or a list of origins.
-##### `2. Access-Control-Allow-Methods`:
+##### 2. `Access-Control-Allow-Methods`:
 .    Specifies the HTTP methods (e.g., GET, POST, PUT, DELETE) that are allowed when accessing the resource.
-##### `3. Access-Control-Allow-Headers`:
+##### 3. `Access-Control-Allow-Headers`:
 .   Specifies which HTTP headers can be used during the actual request.
-##### `4. Access-Control-Allow-Credentials`:
+##### 4. `Access-Control-Allow-Credentials`:
 .   Indicates whether the browser should include credentials (like cookies) when making the actual request.
 
 #### Handling CORS-Related Issues:
