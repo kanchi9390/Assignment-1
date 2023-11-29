@@ -31,6 +31,7 @@ CREATE TABLE Post (
    FOREIGN KEY (UserID) REFERENCES User(UserID)
 );
 
+
 3.Comment Table:
     . CommentId: Unique identifier for each comment (primary key).
     . Content: The content of the comment.
@@ -47,3 +48,8 @@ CREATE TABLE Comment (
    FOREIGN KEY (UserID) REFERENCES User(UserID),
    FOREIGN KEY (PostID) REFERENCES Post(PostID)
 );
+
+
+                                                   Query
+.Write a MongoDB query to find all posts created by a specific user, including the user details.
+
