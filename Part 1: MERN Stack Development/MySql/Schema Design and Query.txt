@@ -15,3 +15,31 @@ CREATE TABLE Post (
    UserID INT,
    FOREIGN KEY (UserID) REFERENCES User(UserID)
 );
+
+CREATE TABLE Comment (
+   CommentID INT PRIMARY KEY,
+   Content TEXT NOT NULL,
+   UserID INT,
+   PostID INT,
+   FOREIGN KEY (UserID) REFERENCES User(UserID),
+   FOREIGN KEY (PostID) REFERENCES Post(PostID)
+);
+
+1.User Table:
+    . UserId: Unique identifier for each user (primary key).
+    . Username: User's username.
+    . Email: User's email address (unique).
+
+
+2.Post Table:
+    . PostId: Unique identifier for each post (primary key).
+    . Title: Title of the blog post.
+    . Content: The main content of the blog post.
+    . UserId: Foreign key referencing the user who authored the post.
+
+
+3.Comment Table:
+    . CommentId: Unique identifier for each comment (primary key).
+    . Content: The content of the comment.
+    . UserId: Foreign key referencing the user who wrote the comment.
+    . PostId: Foreign key referencing the post to which the comment belongs.
