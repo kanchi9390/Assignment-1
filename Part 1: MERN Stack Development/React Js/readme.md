@@ -1,11 +1,16 @@
 
-This is the github link of Middleware and Route implementation
+This is the github link of Component and State Management implementation
 
 https://github.com/kanchi9390/MetaGeeksAssignment.git
 
-● Create an Express.js middleware that logs the timestamp and the requested URL for every incoming request.
 
-● Implement an Express.js route that retrieves a list of posts from the database and returns it as JSON.
+### Component
+
+● Create a React.js functional component that displays a list of blog posts. Each post should show the title, author, and a button to view the full post.
+
+### State Management
+
+● Implement state management in React to handle the loading state while fetching the blog posts. Show a loading indicator when posts are being fetched.
 
 ### Installation
 
