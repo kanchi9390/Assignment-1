@@ -12,13 +12,13 @@ When a web page hosted on one domain makes a request for a resource (e.g., an AP
 
 To enable cross-origin requests, a server needs to include the appropriate CORS headers in its responses. The key CORS headers are:
 
-##### 1. Access-Control-Allow-Origin:
+##### `1. Access-Control-Allow-Origin`:
 .    Specifies which origins are permitted to access the resource. It can be a specific origin or a list of origins.
-##### 2. Access-Control-Allow-Methods:
+##### `2. Access-Control-Allow-Methods`:
 .    Specifies the HTTP methods (e.g., GET, POST, PUT, DELETE) that are allowed when accessing the resource.
-##### 3. Access-Control-Allow-Headers:
+##### `3. Access-Control-Allow-Headers`:
 .   Specifies which HTTP headers can be used during the actual request.
-##### 4. Access-Control-Allow-Credentials:
+##### `4. Access-Control-Allow-Credentials`:
 .   Indicates whether the browser should include credentials (like cookies) when making the actual request.
 
 #### Handling CORS-Related Issues:
@@ -26,14 +26,14 @@ To enable cross-origin requests, a server needs to include the appropriate CORS 
 ##### 1.Server-Side Configuration:
 .   Ensure that your server is configured to include the appropriate CORS headers. This is typically done on the server side, depending on the server framework you are using (e.g., Express.js for Node.js, Django for Python).
 ##### 2.Allowing Specific Origins:
-.   Set the Access-Control-Allow-Origin header to the specific origins that are allowed to access the resource. For example:
+.   Set the `Access-Control-Allow-Origin` header to the specific origins that are allowed to access the resource. For example:
 ```
 Access-Control-Allow-Origin: https://example.com
 ```
 ##### 3. Handling Preflight Requests:
 .   For certain types of requests (e.g., requests with certain methods or custom headers), the browser sends a preflight request (HTTP OPTIONS) to check if the actual request is allowed. Ensure your server responds correctly to preflight requests.
 ##### 4. Credentials:
-.   If your application requires credentials (e.g., cookies, HTTP authentication) to be included in cross-origin requests, set the Access-Control-Allow-Credentials header to true. Additionally, ensure that the client includes the withCredentials option in its requests.
+.   If your application requires credentials (e.g., cookies, HTTP authentication) to be included in cross-origin requests, set the `Access-Control-Allow-Credentials` header to `true`. Additionally, ensure that the client includes the withCredentials option in its requests.
 ##### 5. CORS Middleware:
 .   Some web frameworks provide middleware or plugins to handle CORS automatically. For example, Express.js has the cors middleware for this purpose.
 Here's an example of how you can handle CORS in an Express.js application using the `cors` middleware:
