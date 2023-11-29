@@ -3,11 +3,11 @@
 
 https://github.com/kanchi9390/MetaGeeksAssignment.git
 
-#### Middleware
+#### Express.js Middleware
 ● Create an Express.js middleware that logs the timestamp and the
 requested URL for every incoming request.
 
-#### Route
+#### Express.js Route
 ● Implement an Express.js route that retrieves a list of posts from the
 database and returns it as JSON.
 
