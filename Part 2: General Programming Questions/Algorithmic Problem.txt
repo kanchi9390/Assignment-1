@@ -15,6 +15,6 @@ input_string = input()
 result = is_palindrome(input_string)
 
 if result:
-    print(f'The string "{input_string}" is a palindrome.')
+    print('The string "{input_string}" is a palindrome.')
 else:
-    print(f'The string "{input_string}" is not a palindrome.')
+    print('The string "{input_string}" is not a palindrome.')
